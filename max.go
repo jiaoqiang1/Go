@@ -1,13 +1,13 @@
-package main
+package gotest
 
-func Max(num1, num2 int) int {
-   /* 定义局部变量 */
-   var result int
+import (
+    "errors"
+)
 
-   if (num1 > num2) {
-      result = num1
-   } else {
-      result = num2
-   }
-   return result 
+func Division(a, b float64) (float64, error) {
+    if b == 0 {
+        return 0, errors.New("除数不能为0")
+    }
+
+    return a / b, nil
 }
