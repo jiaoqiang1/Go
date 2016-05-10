@@ -1,6 +1,6 @@
 package main
 
-func max(num1, num2 int) int {
+func Max(num1, num2 int) int {
    /* 定义局部变量 */
    var result int
 
