@@ -15,6 +15,4 @@ func Test_Division_1(t *testing.T) {
 func Test_Division_2(t *testing.T) {
     t.Error("就是不通过")
 }
-我们在项目目录下面执行go test,就会显示如下信息：
 
---- FAIL: Test_Division_2 (0
