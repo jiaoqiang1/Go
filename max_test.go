@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func main(t *testing.T) {
+func TestMain(t *testing.T) {
    /* 定义局部变量 */
    var a int = 100
    var b int = 200
