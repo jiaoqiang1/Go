@@ -1,5 +1,5 @@
 package main
-import "fmt"
+
 func max(num1, num2 int) int {
    /* 定义局部变量 */
    var result int
