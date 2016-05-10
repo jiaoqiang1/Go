@@ -9,7 +9,7 @@ func main(t *testing.T) {
    var ret int
 
    /* 调用函数并返回最大值 */
-   ret = max(a, b)
+   ret = Max(a, b)
 
    t.Printf( "最大值是 : %d\n", ret )
 }
