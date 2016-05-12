@@ -6,4 +6,4 @@ go:
  -Release
  -Tip
 script:
- - go test -v 
+ - go test -v ./...
